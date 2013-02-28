@@ -9,7 +9,7 @@ class Forbes
     when 'william.gates@microsoft.com'
       {:rank => 42, :name => 'Microsoft', :employees => 90000}
     when 'https://developer.apple.com/devcenter/ios/checklist/'
-      {:rank => 22, :name => 'Microsoft', :employees => 60400}
+      {:rank => 22, :name => 'Apple', :employees => 60400}
     else
       nil
     end

@@ -14,6 +14,6 @@ class TestForbesFinder < Test::Unit::TestCase
   end
 
   should "get a response for a redonkulous with params and things" do
-    assert_equal Forbes::lookup('https://developer.apple.com/devcenter/ios/checklist/'), {:rank => 22, :name => 'Microsoft', :employees => 60400}
+    assert_equal Forbes::lookup('https://developer.apple.com/devcenter/ios/checklist/'), {:rank => 22, :name => 'Apple', :employees => 60400}
   end
 end
