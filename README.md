@@ -30,5 +30,9 @@ Forbes::lookup 'POTATO!'
 # => nil
 ```
 
+# Limitations
+
+* There may be cases when the company you're lookup up is a subsidiary of a Forbes 2000 company that has a different domain name.
+
 **Data source(s):**
  * http://www.forbes.com/global2000/list/
