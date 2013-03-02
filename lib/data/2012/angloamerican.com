@@ -1,0 +1,2 @@
+Anglo American
+139

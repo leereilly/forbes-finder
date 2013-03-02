@@ -1,0 +1,2 @@
+Kazakhmys
+1081

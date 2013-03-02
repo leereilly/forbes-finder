@@ -1,0 +1,2 @@
+Nomura Holdings
+461

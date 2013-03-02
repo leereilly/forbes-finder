@@ -1,0 +1,2 @@
+Samsung Electronics
+26

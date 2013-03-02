@@ -1,0 +1,2 @@
+ASML Holding
+690
