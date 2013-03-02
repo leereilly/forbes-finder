@@ -12,16 +12,16 @@ Look up Forbes 2000 companies based on a domain name or email address.
 ```ruby
 
 Forbes::lookup 'exxonmobil.com'
-# => {:rank => 1, :name => 'Exxon Mobil', :employees => 82100}
+# => {:rank => 1, :name => 'Exxon Mobil'}
 
 Forbes::lookup 'www.weir.co.uk'
-# => {:rank => 1749, :name => 'Weir Group', :employees => 13000}
+# => {:rank => 1749, :name => 'Weir Group'}
 
 Forbes::lookup 'william.gates@microsoft.com'
-# => {:rank => 42, :name => 'Microsoft', :employees => 90000}
+# => {:rank => 42, :name => 'Microsoft'}
 
 Forbes::lookup 'https://developer.apple.com/devcenter/ios/checklist/'
-# => {:rank => 22, :name => 'Microsoft', :employees => 60400}
+# => {:rank => 22, :name => 'Microsoft'}
 
 Forbes::lookup 'UltraInfoMegaTechCorp.com'
 # => nil
