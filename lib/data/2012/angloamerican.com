@@ -1,2 +1,0 @@
-Anglo American
-139

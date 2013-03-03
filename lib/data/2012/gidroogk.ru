@@ -1,2 +1,0 @@
-RusHydro
-767

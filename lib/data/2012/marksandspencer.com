@@ -1,2 +1,0 @@
-Marks & Spencer
-685

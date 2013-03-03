@@ -1,2 +1,0 @@
-Kazakhmys
-1081

@@ -1,2 +1,0 @@
-Indian Oil
-285

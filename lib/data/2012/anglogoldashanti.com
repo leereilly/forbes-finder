@@ -1,2 +1,0 @@
-AngloGold Ashanti
-794

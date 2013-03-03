@@ -1,2 +1,0 @@
-Generali Group
-157

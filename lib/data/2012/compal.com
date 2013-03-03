@@ -1,2 +1,0 @@
-Compal Electronics
-823

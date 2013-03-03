@@ -1,2 +1,0 @@
-Publicis Groupe
-719

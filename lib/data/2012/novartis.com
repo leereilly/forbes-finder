@@ -1,2 +1,0 @@
-Novartis
-62

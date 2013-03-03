@@ -1,2 +1,0 @@
-BNP Paribas
-20

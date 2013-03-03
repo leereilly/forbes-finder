@@ -1,2 +1,0 @@
-Severstal
-860

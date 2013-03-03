@@ -1,2 +1,0 @@
-Société Générale
-94

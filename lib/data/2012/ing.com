@@ -1,2 +1,0 @@
-ING Group
-39

@@ -1,2 +1,0 @@
-Mitsubishi Corp
-95

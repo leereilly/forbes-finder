@@ -1,2 +1,0 @@
-Hyundai Motor
-96

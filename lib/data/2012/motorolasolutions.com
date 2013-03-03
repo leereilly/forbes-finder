@@ -1,2 +1,0 @@
-Motorola Solutions
-647

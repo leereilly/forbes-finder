@@ -1,2 +1,0 @@
-Alcatel-Lucent
-589

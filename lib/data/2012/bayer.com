@@ -1,2 +1,0 @@
-Bayer Group
-136

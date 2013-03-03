@@ -1,2 +1,0 @@
-TE Connectivity
-502

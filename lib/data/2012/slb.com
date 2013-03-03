@@ -1,2 +1,0 @@
-Schlumberger
-128

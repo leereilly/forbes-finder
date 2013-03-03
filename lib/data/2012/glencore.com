@@ -1,2 +1,0 @@
-Glencore International
-99

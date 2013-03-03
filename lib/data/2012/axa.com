@@ -1,2 +1,0 @@
-AXA Group
-45

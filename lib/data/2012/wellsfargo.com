@@ -1,2 +1,0 @@
-Wells Fargo
-9

@@ -1,2 +1,0 @@
-Attijariwafa Bank
-977

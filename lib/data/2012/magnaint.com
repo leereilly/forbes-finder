@@ -1,2 +1,0 @@
-Magna International
-547

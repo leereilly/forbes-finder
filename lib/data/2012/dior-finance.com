@@ -1,2 +1,0 @@
-Christian Dior
-210

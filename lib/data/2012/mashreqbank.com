@@ -1,2 +1,0 @@
-Mashreqbank
-1995

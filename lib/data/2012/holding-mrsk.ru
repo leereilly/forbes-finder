@@ -1,2 +1,0 @@
-IDGC Holding
-712

@@ -1,2 +1,0 @@
-Fujifilm Holdings
-447

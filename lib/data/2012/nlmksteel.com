@@ -1,2 +1,0 @@
-Novolipetsk Steel
-661

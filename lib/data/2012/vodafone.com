@@ -1,2 +1,0 @@
-Vodafone
-28

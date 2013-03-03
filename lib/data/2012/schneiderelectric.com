@@ -1,2 +1,0 @@
-Schneider Electric
-195

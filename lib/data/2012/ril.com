@@ -1,2 +1,0 @@
-Reliance Industries
-124

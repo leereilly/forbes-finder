@@ -1,2 +1,0 @@
-Thomson Reuters
-701

@@ -1,2 +1,0 @@
-Talisman Energy
-624

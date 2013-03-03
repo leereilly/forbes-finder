@@ -1,2 +1,0 @@
-Evraz Group
-750

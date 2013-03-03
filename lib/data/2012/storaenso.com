@@ -1,2 +1,0 @@
-Stora Enso
-902

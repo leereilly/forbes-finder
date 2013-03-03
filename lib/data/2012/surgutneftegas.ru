@@ -1,2 +1,0 @@
-Surgutneftegas
-200

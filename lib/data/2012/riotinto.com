@@ -1,2 +1,0 @@
-Rio Tinto
-69

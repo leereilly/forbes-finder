@@ -1,2 +1,0 @@
-Cognizant Technology
-883

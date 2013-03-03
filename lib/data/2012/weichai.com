@@ -1,2 +1,0 @@
-Weichai Power
-916

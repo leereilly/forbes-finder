@@ -1,2 +1,0 @@
-Galp Energia
-645

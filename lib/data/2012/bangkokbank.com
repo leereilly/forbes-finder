@@ -1,2 +1,0 @@
-Bangkok Bank
-745

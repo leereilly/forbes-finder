@@ -1,2 +1,0 @@
-Infosys Technologies
-784

@@ -1,2 +1,0 @@
-Sime Darby
-530

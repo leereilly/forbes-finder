@@ -1,2 +1,0 @@
-Kasikornbank
-679

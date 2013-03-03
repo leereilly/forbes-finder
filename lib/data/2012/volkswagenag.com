@@ -1,2 +1,0 @@
-Volkswagen Group
-17

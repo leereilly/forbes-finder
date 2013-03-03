@@ -1,2 +1,0 @@
-ASML Holding
-690

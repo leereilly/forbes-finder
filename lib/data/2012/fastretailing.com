@@ -1,2 +1,0 @@
-Fast Retailing
-808

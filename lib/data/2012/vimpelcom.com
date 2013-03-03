@@ -1,2 +1,0 @@
-VimpelCom
-438

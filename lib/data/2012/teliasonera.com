@@ -1,2 +1,0 @@
-TeliaSonera
-294

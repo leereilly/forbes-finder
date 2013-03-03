@@ -1,2 +1,0 @@
-Repsol YPF
-140

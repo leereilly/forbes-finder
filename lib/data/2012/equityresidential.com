@@ -1,2 +1,0 @@
-Equity Residential
-856

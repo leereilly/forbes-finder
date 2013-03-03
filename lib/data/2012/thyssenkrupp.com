@@ -1,2 +1,0 @@
-ThyssenKrupp Group
-596

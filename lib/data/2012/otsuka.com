@@ -1,2 +1,0 @@
-Otsuka Holding
-532

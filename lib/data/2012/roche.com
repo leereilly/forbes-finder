@@ -1,2 +1,0 @@
-Roche Holding
-103

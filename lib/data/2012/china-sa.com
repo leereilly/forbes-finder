@@ -1,2 +1,0 @@
-SAIC Motor
-232

@@ -1,2 +1,0 @@
-BHP Billiton
-49

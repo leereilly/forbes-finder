@@ -1,2 +1,0 @@
-MGM Mirage
-617

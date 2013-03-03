@@ -1,2 +1,0 @@
-Intesa Sanpaolo
-102

@@ -1,2 +1,0 @@
-Suncor Energy
-134

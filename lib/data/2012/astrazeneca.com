@@ -1,2 +1,0 @@
-AstraZeneca
-142

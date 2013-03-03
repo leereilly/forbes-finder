@@ -1,2 +1,0 @@
-Lotte Shopping
-518

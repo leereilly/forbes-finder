@@ -1,2 +1,0 @@
-Novo Nordisk
-466

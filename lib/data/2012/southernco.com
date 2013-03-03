@@ -1,2 +1,0 @@
-Southern Co
-217

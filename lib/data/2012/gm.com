@@ -1,2 +1,0 @@
-General Motors
-63

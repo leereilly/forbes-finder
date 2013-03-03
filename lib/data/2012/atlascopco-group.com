@@ -1,2 +1,0 @@
-Atlas Copco
-528

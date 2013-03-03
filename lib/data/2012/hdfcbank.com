@@ -1,2 +1,0 @@
-HDFC Bank
-520

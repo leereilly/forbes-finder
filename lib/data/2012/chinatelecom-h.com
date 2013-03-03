@@ -1,2 +1,0 @@
-China Telecom
-155

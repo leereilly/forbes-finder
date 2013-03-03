@@ -1,2 +1,0 @@
-Goldcorp
-507

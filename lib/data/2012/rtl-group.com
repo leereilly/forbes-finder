@@ -1,2 +1,0 @@
-RTL Group
-766

@@ -1,2 +1,0 @@
-Nomura Holdings
-461

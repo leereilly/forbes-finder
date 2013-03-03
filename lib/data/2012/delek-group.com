@@ -1,2 +1,0 @@
-Delek Group
-960

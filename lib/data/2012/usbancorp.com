@@ -1,2 +1,0 @@
-US Bancorp
-122

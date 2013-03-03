@@ -1,2 +1,0 @@
-Navistar Intl
-915

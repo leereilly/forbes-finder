@@ -1,2 +1,0 @@
-Finmeccanica
-731

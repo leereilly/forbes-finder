@@ -1,2 +1,0 @@
-Hutchison Whampoa
-164

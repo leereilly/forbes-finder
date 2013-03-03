@@ -1,2 +1,0 @@
-NKSJ Holdings
-653

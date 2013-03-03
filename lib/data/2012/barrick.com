@@ -1,2 +1,0 @@
-Barrick Gold
-225

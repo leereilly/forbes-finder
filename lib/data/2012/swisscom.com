@@ -1,2 +1,0 @@
-Swisscom
-540

@@ -1,2 +1,0 @@
-IntercontinentalExchange
-947

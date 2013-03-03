@@ -1,2 +1,0 @@
-Lenovo Group
-989

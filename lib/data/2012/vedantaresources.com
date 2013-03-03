@@ -1,2 +1,0 @@
-Vedanta Resources
-679

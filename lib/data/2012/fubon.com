@@ -1,2 +1,0 @@
-Fubon Financial
-516

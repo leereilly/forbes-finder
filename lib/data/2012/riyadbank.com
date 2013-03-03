@@ -1,2 +1,0 @@
-Riyad Bank
-800

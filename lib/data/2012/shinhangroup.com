@@ -1,2 +1,0 @@
-Shinhan Financial
-213

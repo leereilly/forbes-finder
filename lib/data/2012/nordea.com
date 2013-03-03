@@ -1,2 +1,0 @@
-Nordea Bank
-135

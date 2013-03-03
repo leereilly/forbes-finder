@@ -1,2 +1,0 @@
-Schindler Holding
-909

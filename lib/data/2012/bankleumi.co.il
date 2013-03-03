@@ -1,2 +1,0 @@
-Bank Leumi
-992

@@ -1,2 +1,0 @@
-Ericsson
-239

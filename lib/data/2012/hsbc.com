@@ -1,2 +1,0 @@
-HSBC Holdings
-6

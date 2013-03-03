@@ -1,2 +1,0 @@
-STMicroelectronics
-954

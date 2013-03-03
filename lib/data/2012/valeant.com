@@ -1,2 +1,0 @@
-Valeant Pharmaceuticals
-1395

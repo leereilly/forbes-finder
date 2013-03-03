@@ -1,2 +1,0 @@
-Sberbank
-90

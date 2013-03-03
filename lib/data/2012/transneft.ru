@@ -1,2 +1,0 @@
-Transneft
-587

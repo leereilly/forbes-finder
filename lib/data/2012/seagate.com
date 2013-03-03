@@ -1,2 +1,0 @@
-Seagate Technology
-771

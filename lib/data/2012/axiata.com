@@ -1,2 +1,0 @@
-Axiata Group
-896

@@ -1,2 +1,0 @@
-Emerson Electric
-293

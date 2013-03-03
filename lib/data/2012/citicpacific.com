@@ -1,2 +1,0 @@
-Citic Pacific
-625

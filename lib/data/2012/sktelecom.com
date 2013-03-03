@@ -1,2 +1,0 @@
-SK Telecom
-538

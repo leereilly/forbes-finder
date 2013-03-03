@@ -1,2 +1,0 @@
-HeidelbergCement
-485

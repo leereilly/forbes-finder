@@ -1,2 +1,0 @@
-Norsk Hydro
-504

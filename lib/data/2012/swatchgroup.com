@@ -1,2 +1,0 @@
-Swatch Group
-677

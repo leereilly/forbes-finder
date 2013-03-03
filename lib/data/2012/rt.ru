@@ -1,2 +1,0 @@
-Rostelecom
-649

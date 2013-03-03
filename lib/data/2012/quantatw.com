@@ -1,2 +1,0 @@
-Quanta Computer
-602

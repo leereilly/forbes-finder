@@ -1,2 +1,0 @@
-Telefónica
-57

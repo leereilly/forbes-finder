@@ -1,2 +1,0 @@
-KBC Group
-645
