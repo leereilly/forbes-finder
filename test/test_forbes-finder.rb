@@ -2,9 +2,9 @@ require 'helper'
 
 class TestForbesFinder < Test::Unit::TestCase
   should "find a Forbes 2000 record" do
-    record = ForbesFinder::lookup("chipotle.com")
-    assert_equal "Chipotle Mexican Grill", record.name
-    assert_equal 1876, record.rank
+    record = ForbesFinder::lookup("bestbuy.com")
+    assert_equal "Best Buy", record.name
+    assert_equal 468, record.rank
   end
 
   should "cleans queries" do

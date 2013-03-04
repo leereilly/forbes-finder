@@ -7,7 +7,10 @@ class TestForbesFinderRecord < Test::Unit::TestCase
     assert_equal 42, record.rank
   end
 
-  should "throw an EntryNotFound error when the domain is not found" do
-    assert_equal nil, ForbesFinder::Record.new('github.com').rank
+  should "know about subsidiaries" do
+    record = ForbesFinder::Record.new('citibank.com')
+    assert_equal 'Citigroup', record.name
+    assert_equal 14, record.rank
+    assert_equal true, record.alias
   end
 end
