@@ -2,13 +2,13 @@ require 'helper'
 
 class TestForbesFinder < Test::Unit::TestCase
   should "create a record from a valid domain name" do
-    record = ForbesFinder::Record.new('microsoft.com')
+    record = ForbesFinder::lookup('microsoft.com')
     assert_equal 'Microsoft', record.name
     assert_equal 42, record.rank
   end
 
   should "know about subsidiaries" do
-    record = ForbesFinder::Record.new('citibank.com')
+    record = ForbesFinder::lookup('citibank.com')
     assert_equal 'Citigroup', record.name
     assert_equal 14, record.rank
     assert_equal true, record.alias
@@ -30,5 +30,10 @@ class TestForbesFinder < Test::Unit::TestCase
 
   should "know when domains are unranked" do
     assert_equal false, ForbesFinder::ranked?('github.com')
+  end
+
+  should "not crap out" do
+    assert_equal nil, ForbesFinder::lookup(nil)
+    assert_equal nil, ForbesFinder::lookup('zomg.com')
   end
 end
