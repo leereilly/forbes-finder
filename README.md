@@ -7,29 +7,29 @@ The Forbes Global 2000 is an annual ranking of the top 2000 public companies in 
 # Usage
 
 ```ruby
-forbes_2000_record = ForbesFinder::lookup 'exxonmobil.com'
+record = ForbesFinder::lookup 'exxonmobil.com'
 # => <ForbesFinder::Record:0x007faa33887310>
 
-forbes_2000_record.name
+record.name
 # => "Exxon Mobil"
 
-forbes_2000_record.rank
+record.rank
 # => 1
 ```
 
 It'll handle email addresses and URLs with all sorts of subdomains, parameters, etc.
 
 ```ruby
-forbes_2000_record = ForbesFinder::lookup 'https://developer.apple.com/devcenter/ios/checklist/'
+record = ForbesFinder::lookup 'https://developer.apple.com/devcenter/ios/checklist/'
 # => <ForbesFinder::Record:0x007faa338072a0>
 
-forbes_2000_record.domain
+record.domain
 # => "apple.com"
 
-forbes_2000_record.name
+record.name
 # => "Apple"
 
-forbes_2000_record.rank
+record.rank
 # => 22
 
 ForbesFinder::lookup('william.gates@microsoft.com').name
