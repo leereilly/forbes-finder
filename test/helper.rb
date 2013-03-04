@@ -10,9 +10,10 @@ end
 require 'test/unit'
 require 'shoulda'
 
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'forbes-finder'
+unless defined? ForbesFinder
+  $:.unshift File.expand_path('../../lib', __FILE__)
+  require 'forbes-finder'
+end
 
 class Test::Unit::TestCase
 end

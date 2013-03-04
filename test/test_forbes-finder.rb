@@ -8,12 +8,17 @@ class TestForbesFinder < Test::Unit::TestCase
   end
 
   should "cleans queries" do
-    assert_equal 'google.com', ForbesFinder::cleanse_query('GOOGLE.COM')
-    assert_equal 'google.com', ForbesFinder::cleanse_query('http://google.com')
-    assert_equal 'google.com', ForbesFinder::cleanse_query('https://google.com')
-    assert_equal 'google.com', ForbesFinder::cleanse_query('www.google.com')
-    assert_equal 'google.com', ForbesFinder::cleanse_query('http://www.google.com')
-    assert_equal 'google.com', ForbesFinder::cleanse_query('https://subdomain.google.com')
-    assert_equal 'google.com', ForbesFinder::cleanse_query('larry@google.com')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('GOOGLE.COM')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('http://google.com')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('https://google.com')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('www.google.com')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('http://www.google.com')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('https://subdomain.google.com')
+    assert_equal 'google.com', ForbesFinder::cleanse_domain('larry@google.com')
+  end
+
+  should "know a Forbes" do
+    assert_equal false, ForbesFinder::ranked?('github.com')
+    assert_equal true, ForbesFinder::ranked?('microsoft.com')
   end
 end
