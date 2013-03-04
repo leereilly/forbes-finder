@@ -1,10 +1,17 @@
 require 'helper'
 
 class TestForbesFinder < Test::Unit::TestCase
-  should "find a Forbes 2000 record" do
-    record = ForbesFinder::lookup("bestbuy.com")
-    assert_equal "Best Buy", record.name
-    assert_equal 468, record.rank
+  should "create a record from a valid domain name" do
+    record = ForbesFinder::Record.new('microsoft.com')
+    assert_equal 'Microsoft', record.name
+    assert_equal 42, record.rank
+  end
+
+  should "know about subsidiaries" do
+    record = ForbesFinder::Record.new('citibank.com')
+    assert_equal 'Citigroup', record.name
+    assert_equal 14, record.rank
+    assert_equal true, record.alias
   end
 
   should "cleans queries" do
@@ -17,8 +24,11 @@ class TestForbesFinder < Test::Unit::TestCase
     assert_equal 'google.com', ForbesFinder::cleanse_domain('larry@google.com')
   end
 
-  should "know a Forbes" do
-    assert_equal false, ForbesFinder::ranked?('github.com')
+  should "know when domains are ranked" do
     assert_equal true, ForbesFinder::ranked?('microsoft.com')
+  end
+
+  should "know when domains are unranked" do
+    assert_equal false, ForbesFinder::ranked?('github.com')
   end
 end
