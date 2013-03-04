@@ -1,0 +1,8 @@
+.bundle
+.DS_Store
+.yardoc
+Gemfile.lock
+
+doc
+pkg
+rdoc
