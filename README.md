@@ -1,6 +1,3 @@
-forbes-finder
-=============
-
 The Forbes Global 2000 is an annual ranking of the top 2000 public companies in the world by Forbes magazine. The ranking is based on a mix of four metrics: sales, profit, assets and market value.  Use this gem to ook up Forbes 2000 companies based on a domain name or email address.
 
 # Installation
