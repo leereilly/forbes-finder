@@ -10,7 +10,7 @@ domain = "ebayinc.com"
 rank = 322
 ```
 
-That file ensures that `ebayinc.com` will be recognized as a Fortune 500 company. To ensure that `paypal.com` and `ebay.com` are both recognized, we'll need to add two additional files `ebay.com.toml` and `paypal.com.toml` that are symlinks to `ebayinc.com.toml`:
+That file ensures that `ebayinc.com` will be recognized as a Forbes 2000 company. To ensure that `paypal.com` and `ebay.com` are both recognized, we'll need to add two additional files `ebay.com.toml` and `paypal.com.toml` that are symlinks to `ebayinc.com.toml`:
 
 ```
 cd lib/data/2012
