@@ -50,23 +50,23 @@ ForbesFinder::lookup('william.gates@microsoft.com').name
 It'll also work with aliases or subsidiaries, but I'll need *your* help (see [contribution guidelines](/CONTRIBUTING.md) if you're interested).
 
 ```ruby
-FortuneFinder::lookup('ebayinc.com').rank
+ForbesFinder::lookup('ebayinc.com').rank
 # => 322
-FortuneFinder::lookup('ebayinc.com').alias
+ForbesFinder::lookup('ebayinc.com').alias
 # => false
 
-FortuneFinder::lookup('ebay.com').rank
+ForbesFinder::lookup('ebay.com').rank
 # => 322
-FortuneFinder::lookup('ebay.com').alias
+ForbesFinder::lookup('ebay.com').alias
 # => 322
 
-FortuneFinder::lookup('paypal.com').rank
+ForbesFinder::lookup('paypal.com').rank
 # => 322
-FortuneFinder::lookup('paypal.com').alias
+ForbesFinder::lookup('paypal.com').alias
 # => true
-FortuneFinder::lookup('paypal.com').name
+ForbesFinder::lookup('paypal.com').name
 # => eBay
-FortuneFinder::lookup('paypal.com').domain
+ForbesFinder::lookup('paypal.com').domain
 # => ebayinc.com
 ```
 
