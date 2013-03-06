@@ -31,20 +31,15 @@ record.rank
 It'll handle email addresses and URLs with all sorts of subdomains, parameters, etc.
 
 ```ruby
-record = ForbesFinder::lookup 'https://developer.apple.com/devcenter/ios/checklist/'
-# => <ForbesFinder::Record:0x007faa338072a0>
-
-record.domain
-# => "apple.com"
-
-record.name
-# => "Apple"
-
-record.rank
+ForbesFinder::lookup('https://developer.apple.com/devcenter/ios/checklist/').rank
 # => 22
 
-ForbesFinder::lookup('william.gates@microsoft.com').name
-# => "Microsoft"
+ForbesFinder::lookup('www.chevron.com').rank
+# => 12
+
+ForbesFinder::lookup('william.gates@microsoft.com').rank
+# 42
+
 ```
 
 It'll also work with aliases or subsidiaries, but I'll need *your* help (see [contribution guidelines](/CONTRIBUTING.md) if you're interested).
