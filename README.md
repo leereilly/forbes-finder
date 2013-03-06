@@ -2,7 +2,18 @@ The Forbes Global 2000 is an annual ranking of the top 2000 public companies in 
 
 # Installation
 
-`gem install forbes-finder`
+This is a Ruby gem, so you'll need a little Ruby-fu to get it working.
+
+```
+gem install forbes-finder
+```
+
+Or add this to your `Gemfile`:
+
+```
+gem 'forbes-finder', '~> 0.1.1'
+```
+
 
 # Usage
 
@@ -36,9 +47,33 @@ ForbesFinder::lookup('william.gates@microsoft.com').name
 # => "Microsoft"
 ```
 
+It'll also work with aliases or subsidiaries, but I'll need *your* help (see [contribution guidelines](/CONTRIBUTING.md) if you're interested).
+
+```ruby
+FortuneFinder::lookup('ebayinc.com').rank
+# => 322
+FortuneFinder::lookup('ebayinc.com').alias
+# => false
+
+FortuneFinder::lookup('ebay.com').rank
+# => 322
+FortuneFinder::lookup('ebay.com').alias
+# => 322
+
+FortuneFinder::lookup('paypal.com').rank
+# => 322
+FortuneFinder::lookup('paypal.com').alias
+# => true
+FortuneFinder::lookup('paypal.com').name
+# => eBay
+FortuneFinder::lookup('paypal.com').domain
+# => ebayinc.com
+```
+
 # Limitations
 
-* There may be cases when the company you're lookup up is a subsidiary of a Forbes 2000 company that has a different domain name. Keeping track of all of those is beyong the scope of this gem, but you're welcome to submit it as an alias.
+* There may be cases when the company you're lookup up is a subsidiary of a Fortune 500 company that has a different domain name e.g. eBay is a Fortune 500 company identified primarily with `ebayinc.com`, but has many associated domains / subsidiaries like `ebay.com` and `paypal.com`. Using the power of Git, GitHub and TOML you can identify those relationships - please read the [contribution guidelines](/CONTRIBUTING.md) if you'd like to help.
+
 
 **Data source(s):**
  * http://www.forbes.com/global2000/list/
