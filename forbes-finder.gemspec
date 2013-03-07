@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "forbes-finder"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lee Reilly"]
-  s.date = "2013-03-06"
+  s.date = "2013-03-07"
   s.description = "Look up Forbes 2000 companies based on a domain name or email address"
   s.email = "lee@leereilly.net"
   s.extra_rdoc_files = [
@@ -1838,6 +1838,7 @@ Gem::Specification.new do |s|
     "lib/data/2012/wacker.com.toml",
     "lib/data/2012/walgreens.com.toml",
     "lib/data/2012/walmart.com.toml",
+    "lib/data/2012/walmartstores.com.toml",
     "lib/data/2012/want-want.com.toml",
     "lib/data/2012/wartsila.com.toml",
     "lib/data/2012/waters.com.toml",
