@@ -1,4 +1,9 @@
-The Forbes Global 2000 is an annual ranking of the top 2000 public companies in the world by Forbes magazine. The ranking is based on a mix of four metrics: sales, profit, assets and market value.  Use this gem to look up Forbes 2000 companies based on a domain name or email address.
+The Forbes Global 2000 is an annual ranking of the top 2000 public companies in the world by Forbes magazine. The ranking is based on a mix of four metrics: sales, profit, assets and market value.  Use this gem to look up Forbes 2000 companies based on a domain name or email address and generate reports / say things like...
+
+> :bar_chart: Over **25%** of the **Forbes 2000** are using our product
+
+> :chart_with_upwards_trend: We have customers in  **all** of the **Forbes 500** companies
+
 
 # Installation
 
